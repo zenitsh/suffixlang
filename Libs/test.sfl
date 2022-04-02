@@ -1,0 +1,37 @@
+[x 0 > [x x 1 - f *] [1] ?] 'f fn
+[1 3 4 2 3 2 3 4 5 2 1] 'a ia
+[1f 3.4f 2f 5f 12.2f 2f 2323f 4f 2424f 1f] 'a fa
+a [f] ec
+
+{
+    大段注释使用大括号。
+    关键字：
+    + = add 加法
+    - = sub 减法
+    * = multiply 乘法
+    / = divide 除法
+    = = equal 等于
+    > = greater than 大于
+    < = smaller than 小于
+    >= = not smaller than 大于等于
+    <= = not greater than 小于等于
+    ad = and 十六位与
+    or = or 十六位或
+    xr = xor 十六位异或
+    ! = not 十六位非
+    d = copy 复制
+    lc = local 局部变量
+    fn = function 函数
+    hd = handle 函数指针
+    ? = condition 条件
+    $ = loop 循环
+    [ = begin 开始
+    ] = end 结束
+    ec = each 每个
+    ia = integer array 整数数组
+    fa = float array 浮点数组
+    sl = string list 字符串列表
+    # = append 字符串加法
+    ml = make leap 建堆(大顶堆)
+    rv = reverse 使比较器反向
+}
